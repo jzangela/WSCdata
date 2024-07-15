@@ -1,0 +1,107 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+**NOTE: This is a package is under construction.**
+
+# WSCdata
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of WSCdata is to make a within-study comparison design data publicly available. We aim to improve access to high-quality within-study comparison data for applied methodological research.
+
+## Installation
+
+You can install the development version of WSCdata from [GitHub](https://github.com/) with:
+      
+``` r
+# install.packages("devtools")
+devtools::install_github("jzangela/WSCdata")
+```
+
+## Usage
+
+The study aimed to examine the impact of a mathematics training intervention and a vocabulary study session on posttest scores in mathematics and vocabulary, respectively. 
+
+```{r warning = FALSE, message = FALSE}
+# Load packages
+library(WSCdata)
+library(tidyverse)
+
+# Load WSCdata
+data("WSCdata", package = "WSCdata")
+```
+
+We first specified a list of baseline covariates in `cov_nms` for future adjustments or propensity score modeling.
+```{r}
+# A list of covariates that will be used for further adjustment
+cov_nms <- c(
+  "female", "white", "black", "asian", "hisp",
+  "married", "logAge", "income",
+  "collegeS", "collegeM", "collegeD",
+  "calc", "logBooks", "mathLike",
+  "big5O", "big5C", "big5E", "big5A", "big5N",
+  "AMAS", "logBDI", "MCS", "GSES",
+  "vocabPre", "mathPre"
+)
+```
+
+Here is an example of average treatment effect (ATE) estimation based on random assignment. To study the impact of a mathematics training intervention, we can use difference in mean estimation method, as shown in the following analysis
+```{r}
+fmla_unadj_ate_math <- as.formula(paste("mathPost ~ mathGrp"))
+summary(lm(fmla_unadj_ate_math, data = WSCdata))
+```
+The results show that the difference-in-means estimators for the ATE estimand for the effects of mathematics intervention on its posttests is 0.76 (SE: 0.15). This indicates that the average treatment effect (ATE) of mathematics training on math test scores is 0.76.
+
+
+We can further adjust for baseline covariates specified in `cov_nms` in the estimation
+```{r}
+fmla_ancova_ate_math <-
+  as.formula(paste("mathPost ~ mathGrp + ", paste(cov_nms, collapse = " + ")))
+summary(lm(fmla_ancova_ate_math, data = WSCdata))
+```
+Holding constant the baseline covariates via Analysis of Covariates, the ATE estimate is 0.78 (SE: 0.09).
+
+To show the overlap of the propensity in being randomly assigned to the treatment group, we can visualize it using overlap density plot
+```{r}
+# Define the formula for the propensity score model for math training propensity
+fmla_ps_math <-
+  as.formula(paste("mathGrp ~ ", paste(cov_nms, collapse = " + ")))
+
+# Fit a logistic regression model to predict propensity scores
+ps_math <- predict(glm(
+  formula = fmla_ps_math,
+  family = "binomial",
+  data = WSCdata
+), type = "response")
+
+# Merge propensity scores to the original dataset
+lps_grp_math <- data.frame(cbind(lps = log(ps_math), mathGrp = WSCdata$mathGrp))
+
+# Create an overlap density plot based on log transformed propensity scores for treatment and control group
+lps_grp_math |>
+  mutate(mathGrp_fct = case_when(mathGrp == 1 ~ "treatment",
+                                 mathGrp == 0 ~ "control")) |>
+  ggplot(aes(x = lps, fill = mathGrp_fct)) + geom_density(alpha = 0.25) +
+  xlab("Log Propensity Score") +
+  ylab("Density") +
+  ggtitle("Propensity score overlap for math training in RCT groups") +
+  guides(fill=guide_legend(title="RCT group"))
+```
+The plot shows overlap of the density across propensity for treatment and control group, indicating that the randomization is successful and there is baseline balance between treatment groups.
+
+ATE estimates for the vocabulary training can be studied in the same fashion, with changing the group indicator based on vocabulary training status, which is the opposite of math training status.
+
+Other estimators such as ATT and ATU can be studied with group indicators generated from the combination of randomization and self-selection indicator.
