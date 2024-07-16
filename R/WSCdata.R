@@ -54,6 +54,8 @@
 #' math training or vocabulary training. The four arms in the new WSC design can be represented
 #' by these two variables. See paper for more details.
 #'
+#' @usage data(WSCdata)
+#'
 #' @references Keller et al.
 #'
 #' @keywords datasets

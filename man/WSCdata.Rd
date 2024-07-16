@@ -49,6 +49,9 @@ selected math training (0 = No, 1 = Yes).
 math training or vocabulary training. The four arms in the new WSC design can be represented
 by these two variables. See paper for more details.
 }
+\usage{
+data(WSCdata)
+}
 \description{
 This dataset was collected using a new four-arm within-study comparison design.
 The study aimed to examine the impact of a mathematics training intervention and
