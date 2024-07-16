@@ -26,7 +26,26 @@ devtools::install_github("jzangela/WSCdata")
 
 The study aimed to examine the impact of a mathematics training
 intervention and a vocabulary study session on posttest scores in
-mathematics and vocabulary, respectively.
+mathematics and vocabulary, respectively. The dataset `WSCdata` provides
+baseline measures on general self-efficacy, mathematics confidence,
+demographic questions, pretest measures, selection, random assignment,
+and posttest measures. `AMAS_WSC` contains item-wise measurement data
+from a nine-item Abbreviated Mathematics Anxiety Scale (Hopko et al.,
+2003) that assesses mathematics anxiety. `BDI_WSC` includes item-wise
+measurement data from a thirteen-item Beck Depression Inventory (Beck et
+al., 1996) that measures symptoms of depression. `Big5_WSC` offers
+item-wise measurement data from the Big Five Personality Inventory (John
+& Srivastava, 1999) that assesses personality on five dimensions:
+openness to experience, conscientiousness, extraversion, agreeableness,
+and neuroticism. `GSES_WSC` provides item-wise measurement data from the
+General Self-Efficacy Scale (Schwarzer & Jerusalem, 1995) that measures
+the degree to which participants believe in their ability to cope with
+unexpected or difficult situations. `MSC_WSC` contains
+researcher-created measures on confidence in understanding of, and
+ability to simplify, algebraic expressions involving exponents.
+
+Below is an example of analysis based on `WSCdata` for estimating
+intervention effect.
 
 ``` r
 # Load packages
