@@ -3,17 +3,17 @@
 WSCdata <- read.csv("./data-raw/df2200_cleaned.csv")
 usethis::use_data(WSCdata, overwrite = TRUE)
 
-AMASdata <- read.csv("./data-raw/fin_amas.csv")
-usethis::use_data(AMASdata, overwrite = TRUE)
+AMAS_WSC <- read.csv("./data-raw/fin_amas.csv")
+usethis::use_data(AMAS_WSC, overwrite = TRUE)
 
-BDIdata <- read.csv("./data-raw/fin_bdi.csv")
-usethis::use_data(BDIdata, overwrite = TRUE)
+BDI_WSC <- read.csv("./data-raw/fin_bdi.csv")
+usethis::use_data(BDI_WSC, overwrite = TRUE)
 
-Big5data <- read.csv("./data-raw/fin_big5.csv")
-usethis::use_data(Big5data, overwrite = TRUE)
+Big5_WSC <- read.csv("./data-raw/fin_big5.csv")
+usethis::use_data(Big5_WSC, overwrite = TRUE)
 
-GSESdata <- read.csv("./data-raw/fin_gses.csv")
-usethis::use_data(GSESdata, overwrite = TRUE)
+GSES_WSC <- read.csv("./data-raw/fin_gses.csv")
+usethis::use_data(GSES_WSC, overwrite = TRUE)
 
-MCSdata <- read.csv("./data-raw/fin_mcs.csv")
-usethis::use_data(MCSdata, overwrite = TRUE)
+MCS_WSC <- read.csv("./data-raw/fin_mcs.csv")
+usethis::use_data(MCS_WSC, overwrite = TRUE)
