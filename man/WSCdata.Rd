@@ -49,6 +49,9 @@ selected math training (0 = No, 1 = Yes).
 math training or vocabulary training. The four arms in the new WSC design can be represented
 by these two variables. See paper for more details.
 }
+\source{
+Keller et al., ....
+}
 \usage{
 data(WSCdata)
 }
@@ -361,6 +364,6 @@ lps_atu_vocab |>
   guides(fill=guide_legend(title="ATU group"))
 }
 \references{
-Keller et al.
+Keller et al., ....
 }
 \keyword{datasets}

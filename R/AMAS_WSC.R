@@ -6,12 +6,12 @@
 #' to mathematics related activities.
 #'
 #'
-#' @name AMASdata
+#' @name AMAS_WSC
 #' @docType data
-#' @format amas_wsc is a data frame with 2200 cases (rows) and 9 variables (columns).
+#' @format AMAS_WSC is a data frame with 2200 cases (rows) and 9 variables (columns).
 #' The variables are named item1, item2, ... , item9.
 #'
-#' @usage data(AMASdata)
+#' @usage data(AMAS_WSC)
 #'
 #' @source Keller et al., ....
 #'
@@ -21,6 +21,6 @@
 #' @keywords datasets
 #'
 #' @examples
-#' summary(amas_wsc)
+#' summary(AMAS_WSC)
 
 NULL

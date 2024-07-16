@@ -56,7 +56,9 @@
 #'
 #' @usage data(WSCdata)
 #'
-#' @references Keller et al.
+#' @source Keller et al., ....
+#'
+#' @references Keller et al., ....
 #'
 #' @keywords datasets
 #'
