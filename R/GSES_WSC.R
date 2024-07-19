@@ -1,7 +1,8 @@
 #' GSES Dataset
 #'
 #' The dataset contains measurements on perceived self-efficacy regarding coping and
-#' adaptation abilities using the 6-item of General Self-Efficacy Scale (GSES) on 2,200
+#' adaptation abilities using six out of 10 items of General Self-Efficacy Scale
+#' (GSES, item 2, 3, 6, 5, 7, 10 from the original instrument) on 2,200
 #' Amazon Mechanical Turk workers (Keller et al., ...).
 #'
 #'
@@ -14,9 +15,8 @@
 #'
 #' @source Keller et al., ....
 #'
-#' @references Schwarzer, R., & Jerusalem, M. (1995). Generalized self-eﬃcacy scale. In J. Weinman,
-#' S. Wright, & M. Johnston (Eds.), Measures in health psychology: A user’s portfolio;
-#' causal and control beliefs (pp. 35–37). Windsor, UK: NFER - Nelson.
+#' @references Schwarzer, R., & Jerusalem, M. (1995). General Self-Efficacy Scale (GSE) [Database record]. APA PsycTests.
+#' https://doi.org/10.1037/t00393-000
 #'
 #' @keywords datasets
 #'
