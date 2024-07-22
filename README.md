@@ -201,3 +201,23 @@ status, which is the opposite of math training status.
 Other estimators such as ATT and ATU can be studied with group
 indicators generated from the combination of randomization and
 self-selection indicator.
+
+For more information about the four-arm WSC design and analysis, please
+check out Keller et al. (2022).
+
+# References
+
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0">
+
+<div id="ref-keller_2022_" class="csl-entry">
+
+Keller, Bryan, Vivian Wong, Sangbaek Park, Jingru Zhang, Sheehan
+Patrick, and Steiner Peter. 2022. “Experimental and Quasi-Experimental
+Identification of Conditional Average Treatment Effects: A Four-Arm
+Within-Study Comparison.” Open Science Foundation.
+[osf.io/e3mpf](https://osf.io/e3mpf).
+
+</div>
+
+</div>
