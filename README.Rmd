@@ -21,7 +21,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of WSCdata is to make a within-study comparison design data publicly available. We aim to improve access to high-quality within-study comparison data for applied methodological research.
+The goal of WSCdata is to make a within-study comparison design data for evaluating non-experimental methods publicly available. We aim to improve access to high-quality within-study comparison data for applied methodological research.
 
 ## Installation
 
