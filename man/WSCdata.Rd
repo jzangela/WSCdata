@@ -16,6 +16,7 @@ is the indicator variable for female (0 = Non-female, 1 = Female).
 \item "asian" is the indicator variable for Asian ethnicity (0 = No, 1 = Yes).
 \item "married" is the indicator variable for marital status (0 = Not Married, 1 = Married).
 \item "age" is age in years of the individual.
+\item "income" is the indicator variable for household income equal to or greater than $40k (0 = Less than $40k, 1 = Equal to or greater than $40k).
 \item "collegeS" is the indicator variable for college education for self (0 = No, 1 = Yes).
 \item "collegeM" is the indicator variable for college education for mother (0 = No, 1 = Yes).
 \item "collegeD" is the indicator variable for college education for father (0 = No, 1 = Yes).
