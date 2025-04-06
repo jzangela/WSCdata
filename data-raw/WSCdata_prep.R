@@ -17,3 +17,18 @@ usethis::use_data(GSES_WSC, overwrite = TRUE)
 
 MCS_WSC <- read.csv("./data-raw/fin_mcs.csv")
 usethis::use_data(MCS_WSC, overwrite = TRUE)
+
+Math_Pre_WSC <- read.csv("./data-raw/math_pre_item.csv")
+usethis::use_data(Math_Pre_WSC, overwrite = TRUE)
+
+Math_Post_WSC <- read.csv("./data-raw/math_post_item.csv")
+usethis::use_data(Math_Post_WSC, overwrite = TRUE)
+
+Vocab_Pre_WSC <- read.csv("./data-raw/vocab_pre_item.csv")
+usethis::use_data(Vocab_Pre_WSC, overwrite = TRUE)
+
+Vocab_Post_WSC <- read.csv("./data-raw/vocab_post_item.csv")
+usethis::use_data(Vocab_Post_WSC, overwrite = TRUE)
+
+Math_Train_WSC <- read.csv("./data-raw/math_train_item.csv")
+usethis::use_data(Math_Train_WSC, overwrite = TRUE)
