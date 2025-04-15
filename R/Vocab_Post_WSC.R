@@ -1,8 +1,8 @@
 #' Vocabulary Post-test Dataset
 #'
 #' This dataset contains vocabulary posttest for the 2,200 Amazon Mechanical Turk workers.
-#' This test has 24 items that ask participants to match words with their definitions.
-#' Twelve of the fifty words participants were asked to study during the vocabulary
+#' This test consists of 24 items that ask participants to match words with their definitions.
+#' Twelve of the fifty words presented during the vocabulary
 #' study session also appeared on the 24-item vocabulary posttest.
 #'
 #'
@@ -13,13 +13,9 @@
 #'
 #' @usage data(Vocab_Post_WSC)
 #'
-#' @source Keller et al., ....
-#'
-#' @references Keller et al., ....
-#'
 #' @keywords datasets
 #'
 #' @examples
-#' summary(Vocab_Post_WSC)
+#' Vocab_Post_WSC
 
 NULL

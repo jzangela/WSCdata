@@ -8,22 +8,16 @@
 Vocab_Post_WSC is a data frame with 2200 cases (rows) and 24 variables (columns).
 The variables are named item_1, item_2, ... , item_24.
 }
-\source{
-Keller et al., ....
-}
 \usage{
 data(Vocab_Post_WSC)
 }
 \description{
 This dataset contains vocabulary posttest for the 2,200 Amazon Mechanical Turk workers.
-This test has 24 items that ask participants to match words with their definitions.
-Twelve of the fifty words participants were asked to study during the vocabulary
+This test consists of 24 items that ask participants to match words with their definitions.
+Twelve of the fifty words presented during the vocabulary
 study session also appeared on the 24-item vocabulary posttest.
 }
 \examples{
-summary(Vocab_Post_WSC)
-}
-\references{
-Keller et al., ....
+Vocab_Post_WSC
 }
 \keyword{datasets}

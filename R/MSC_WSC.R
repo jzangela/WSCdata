@@ -1,11 +1,11 @@
 #' MSC Dataset
 #'
-#' This dataset contains measurements of confidence in understanding and ability to
+#' This dataset contains measurements of confidence in understanding and in the ability to
 #' simplify algebraic expressions involving exponents. The 5-point Likert-type items
-#' were developed by Keller et al. (...) and administered to 2,200 Amazon Mechanical
-#' Turk workers. The dataset includes Math Confidence Scale (MCS) measurements taken before
+#' were developed by Keller et al. (2022) and administered to 2,200 Amazon Mechanical
+#' Turk workers. The dataset includes Math Confidence Scale (MCS) measurements taken both before
 #' and after a math training intervention. The final variable, named 'type', indicates whether
-#' the data were collected before or after the intervention.
+#' the data were collected prior to or following the intervention.
 #'
 #'
 #' @name MSC_WSC
@@ -24,14 +24,9 @@
 #'
 #' @usage data(MSC_WSC)
 #'
-#' @source Keller et al., ....
-#'
-#' @references Keller et al., ....
-#'
 #' @keywords datasets
 #'
 #' @examples
-#' data(MSC_WSC)
-#' summary(MSC_WSC)
+#' MSC_WSC
 
 NULL

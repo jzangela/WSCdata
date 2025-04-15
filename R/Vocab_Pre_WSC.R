@@ -1,7 +1,7 @@
 #' Vocabulary Pre-test Dataset
 #'
-#' This dataset contains vocabulary pretest for the 2,200 Amazon Mechanical Turk workers.
-#' This test has 24 items that ask participants to match words with their definitions.
+#' This dataset contains vocabulary pretest data for 2,200 Amazon Mechanical Turk workers.
+#' The test consists of 24 items that ask participants to match words with their definitions.
 #'
 #'
 #' @name Vocab_Pre_WSC
@@ -11,13 +11,9 @@
 #'
 #' @usage data(Vocab_Pre_WSC)
 #'
-#' @source Keller et al., ....
-#'
-#' @references Keller et al., ....
-#'
 #' @keywords datasets
 #'
 #' @examples
-#' summary(Vocab_Pre_WSC)
+#' Vocab_Pre_WSC
 
 NULL

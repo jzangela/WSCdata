@@ -8,20 +8,17 @@
 GSES_WSC is a data frame with 2200 cases (rows) and 6 variables (columns).
 The variables are named item_1, item_2, ... , item_6.
 }
-\source{
-Keller et al., ....
-}
 \usage{
 data(GSES_WSC)
 }
 \description{
-The dataset contains measurements on perceived self-efficacy regarding coping and
-adaptation abilities using six out of 10 items of General Self-Efficacy Scale
-(GSES, item 2, 3, 6, 5, 7, 10 from the original instrument) on 2,200
-Amazon Mechanical Turk workers (Keller et al., ...).
+The dataset contains measurements of perceived self-efficacy related to coping and
+adaptation abilities, using six out of the ten items from the General Self-Efficacy Scale
+(GSES)—specifically item 2, 3, 6, 5, 7, and 10. The data were collected from 2,200
+Amazon Mechanical Turk workers (Keller et al., 2022).
 }
 \examples{
-summary(GSES_WSC)
+GSES_WSC
 }
 \references{
 Schwarzer, R., & Jerusalem, M. (1995). General Self-Efficacy Scale (GSE) \link{Database record}. APA PsycTests.

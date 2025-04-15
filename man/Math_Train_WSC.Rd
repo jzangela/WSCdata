@@ -8,22 +8,16 @@
 Math_Train_WSC is a data frame with 2200 cases (rows) and 10 variables (columns).
 The variables are named item_1, item_2, ... , item_10.
 }
-\source{
-Keller et al., ....
-}
 \usage{
 data(Math_Train_WSC)
 }
 \description{
-This dataset contains practice questions displayed during mathematics intervention
-for the 2,200 Amazon Mechanical Turk workers.
-There were in total 10 items asked participants on rules for simplifying exponential expressions.
-For participants who received a vocabulary intervention, all items are recorded as missing.
+This dataset contains practice questions presented during mathematics intervention
+to 2,200 Amazon Mechanical Turk workers.
+A total 10 items assessed participants' understanding of rules for simplifying exponential expressions.
+For participants who received the vocabulary intervention, all items are recorded as missing.
 }
 \examples{
-summary(Math_Train_WSC)
-}
-\references{
-Keller et al., ....
+Math_Train_WSC
 }
 \keyword{datasets}

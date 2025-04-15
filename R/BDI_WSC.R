@@ -1,8 +1,8 @@
 #' BDI Dataset
 #'
-#' The dataset contains measurements on attitudes and symptoms of depression using the
-#' 13-item short form of Beck Depression Inventory (BDI) on 2,200 Amazon Mechanical Turk
-#' workers (Keller et al., ...)
+#' The dataset contains measurements of attitudes and symptoms of depression using the
+#' 13-item short form of the Beck Depression Inventory (BDI), collected from 2,200 Amazon Mechanical Turk
+#' workers (Keller et al., 2022)
 #'
 #'
 #' @name BDI_WSC
@@ -12,8 +12,6 @@
 #'
 #' @usage data(BDI_WSC)
 #'
-#' @source Keller et al., ....
-#'
 #' @references Beck, A. T., & Beck, R. W. (1972). Screening Depressed Patients in Family
 #' Practice: A Rapid Technic. Postgraduate Medicine, 52(6), 81–85.
 #' https://doi.org/10.1080/00325481.1972.11713319
@@ -21,6 +19,6 @@
 #' @keywords datasets
 #'
 #' @examples
-#' summary(BDI_WSC)
+#' BDI_WSC
 
 NULL

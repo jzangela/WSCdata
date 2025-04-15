@@ -8,20 +8,14 @@
 Vocab_Pre_WSC is a data frame with 2200 cases (rows) and 24 variables (columns).
 The variables are named item_1, item_2, ... , item_24.
 }
-\source{
-Keller et al., ....
-}
 \usage{
 data(Vocab_Pre_WSC)
 }
 \description{
-This dataset contains vocabulary pretest for the 2,200 Amazon Mechanical Turk workers.
-This test has 24 items that ask participants to match words with their definitions.
+This dataset contains vocabulary pretest data for 2,200 Amazon Mechanical Turk workers.
+The test consists of 24 items that ask participants to match words with their definitions.
 }
 \examples{
-summary(Vocab_Pre_WSC)
-}
-\references{
-Keller et al., ....
+Vocab_Pre_WSC
 }
 \keyword{datasets}

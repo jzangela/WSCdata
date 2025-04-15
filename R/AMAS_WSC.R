@@ -1,9 +1,9 @@
 #' AMAS Dataset
 #'
-#' This dataset contains math anxiety measurements using the Abbreviated Math Anxiety Scale (AMAS)
-#' on 2,200 Amazon Mechanical Turk workers (Keller et al., ....)
-#' This scale has 9 items representing mathematics anxiety which is a negative emotion associated
-#' to mathematics related activities.
+#' This dataset contains measurements of math anxiety using the Abbreviated Math Anxiety Scale (AMAS),
+#' collected from 2,200 Amazon Mechanical Turk workers (Keller et al., 2022)
+#' This scale consists of 9 items that assess mathematics anxiety, a negative emotional response associated
+#' with mathematics-related activities.
 #'
 #'
 #' @name AMAS_WSC
@@ -13,14 +13,12 @@
 #'
 #' @usage data(AMAS_WSC)
 #'
-#' @source Keller et al., ....
-#'
 #' @references Hopko, D., Mahadevan, R., Bare, R. L., & Hunt, M. K. (2003). The abbreviated math
 #' anxiety scale (AMAS): Construction, validity, and reliability. Assessment, 10 , 78–182.
 #'
 #' @keywords datasets
 #'
 #' @examples
-#' summary(AMAS_WSC)
+#' AMAS_WSC
 
 NULL

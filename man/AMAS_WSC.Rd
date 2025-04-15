@@ -8,20 +8,17 @@
 AMAS_WSC is a data frame with 2200 cases (rows) and 9 variables (columns).
 The variables are named item_1, item_2, ... , item_9.
 }
-\source{
-Keller et al., ....
-}
 \usage{
 data(AMAS_WSC)
 }
 \description{
-This dataset contains math anxiety measurements using the Abbreviated Math Anxiety Scale (AMAS)
-on 2,200 Amazon Mechanical Turk workers (Keller et al., ....)
-This scale has 9 items representing mathematics anxiety which is a negative emotion associated
-to mathematics related activities.
+This dataset contains measurements of math anxiety using the Abbreviated Math Anxiety Scale (AMAS),
+collected from 2,200 Amazon Mechanical Turk workers (Keller et al., 2022)
+This scale consists of 9 items that assess mathematics anxiety, a negative emotional response associated
+with mathematics-related activities.
 }
 \examples{
-summary(AMAS_WSC)
+AMAS_WSC
 }
 \references{
 Hopko, D., Mahadevan, R., Bare, R. L., & Hunt, M. K. (2003). The abbreviated math

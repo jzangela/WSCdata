@@ -8,19 +8,16 @@
 BDI_WSC is a data frame with 2200 cases (rows) and 13 variables (columns).
 The variables are named item_1, item_2, ... , item_13.
 }
-\source{
-Keller et al., ....
-}
 \usage{
 data(BDI_WSC)
 }
 \description{
-The dataset contains measurements on attitudes and symptoms of depression using the
-13-item short form of Beck Depression Inventory (BDI) on 2,200 Amazon Mechanical Turk
-workers (Keller et al., ...)
+The dataset contains measurements of attitudes and symptoms of depression using the
+13-item short form of the Beck Depression Inventory (BDI), collected from 2,200 Amazon Mechanical Turk
+workers (Keller et al., 2022)
 }
 \examples{
-summary(BDI_WSC)
+BDI_WSC
 }
 \references{
 Beck, A. T., & Beck, R. W. (1972). Screening Depressed Patients in Family

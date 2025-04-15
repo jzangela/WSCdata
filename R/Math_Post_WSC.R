@@ -1,9 +1,9 @@
 #' Math Post-test Dataset
 #'
-#' This dataset contains mathematics posttest prepared by the authors (Keller et al., ....) for
+#' This dataset contains mathematics posttest data prepared by the authors (Keller et al., 2022), collected from
 #' the 2,200 Amazon Mechanical Turk workers,
-#' This test has 15 items: five focused on general mathematics aptitude
-#' and ten items dealing with properties of exponents.
+#' This test consists of 15 items: five assessing general mathematics aptitude
+#' and ten focused on properties of exponents.
 #'
 #'
 #' @name Math_Post_WSC
@@ -13,13 +13,9 @@
 #'
 #' @usage data(Math_Post_WSC)
 #'
-#' @source Keller et al., ....
-#'
-#' @references Keller et al., ....
-#'
 #' @keywords datasets
 #'
 #' @examples
-#' summary(Math_Post_WSC)
+#' Math_Post_WSC
 
 NULL

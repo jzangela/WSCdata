@@ -1,9 +1,9 @@
 #' Math Training Dataset
 #'
-#' This dataset contains practice questions displayed during mathematics intervention
-#' for the 2,200 Amazon Mechanical Turk workers.
-#' There were in total 10 items asked participants on rules for simplifying exponential expressions.
-#' For participants who received a vocabulary intervention, all items are recorded as missing.
+#' This dataset contains practice questions presented during mathematics intervention
+#' to 2,200 Amazon Mechanical Turk workers.
+#' A total 10 items assessed participants' understanding of rules for simplifying exponential expressions.
+#' For participants who received the vocabulary intervention, all items are recorded as missing.
 #'
 #'
 #' @name Math_Train_WSC
@@ -13,13 +13,9 @@
 #'
 #' @usage data(Math_Train_WSC)
 #'
-#' @source Keller et al., ....
-#'
-#' @references Keller et al., ....
-#'
 #' @keywords datasets
 #'
 #' @examples
-#' summary(Math_Train_WSC)
+#' Math_Train_WSC
 
 NULL

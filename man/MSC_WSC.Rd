@@ -17,25 +17,18 @@ The variables are named item_1, item_2 ...., item_6, and type ("pre" or "post").
 \item{type}{Either "pre" or "post", indicating assessment timing.}
 }
 }
-\source{
-Keller et al., ....
-}
 \usage{
 data(MSC_WSC)
 }
 \description{
-This dataset contains measurements of confidence in understanding and ability to
+This dataset contains measurements of confidence in understanding and in the ability to
 simplify algebraic expressions involving exponents. The 5-point Likert-type items
-were developed by Keller et al. (...) and administered to 2,200 Amazon Mechanical
-Turk workers. The dataset includes Math Confidence Scale (MCS) measurements taken before
+were developed by Keller et al. (2022) and administered to 2,200 Amazon Mechanical
+Turk workers. The dataset includes Math Confidence Scale (MCS) measurements taken both before
 and after a math training intervention. The final variable, named 'type', indicates whether
-the data were collected before or after the intervention.
+the data were collected prior to or following the intervention.
 }
 \examples{
-data(MSC_WSC)
-summary(MSC_WSC)
-}
-\references{
-Keller et al., ....
+MSC_WSC
 }
 \keyword{datasets}

@@ -1,9 +1,9 @@
 #' GSES Dataset
 #'
-#' The dataset contains measurements on perceived self-efficacy regarding coping and
-#' adaptation abilities using six out of 10 items of General Self-Efficacy Scale
-#' (GSES, item 2, 3, 6, 5, 7, 10 from the original instrument) on 2,200
-#' Amazon Mechanical Turk workers (Keller et al., ...).
+#' The dataset contains measurements of perceived self-efficacy related to coping and
+#' adaptation abilities, using six out of the ten items from the General Self-Efficacy Scale
+#' (GSES)—specifically item 2, 3, 6, 5, 7, and 10. The data were collected from 2,200
+#' Amazon Mechanical Turk workers (Keller et al., 2022).
 #'
 #'
 #' @name GSES_WSC
@@ -13,14 +13,12 @@
 #'
 #' @usage data(GSES_WSC)
 #'
-#' @source Keller et al., ....
-#'
 #' @references Schwarzer, R., & Jerusalem, M. (1995). General Self-Efficacy Scale (GSE) [Database record]. APA PsycTests.
 #' https://doi.org/10.1037/t00393-000
 #'
 #' @keywords datasets
 #'
 #' @examples
-#' summary(GSES_WSC)
+#' GSES_WSC
 
 NULL

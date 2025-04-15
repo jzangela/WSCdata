@@ -1,11 +1,11 @@
 #' Math Pre-test Dataset
 #'
-#' This dataset contains mathematics pretest prepared by the authors (Keller et al., ....) for
-#' the 2,200 Amazon Mechanical Turk workers,
-#' drawing on a combination of self-written items and items from the ETS Kit of Factor-Referenced
+#' This dataset contains mathematics pretest data prepared by the authors (Keller et al., 2022), collected from
+#' 2,200 Amazon Mechanical Turk workers.
+#' The test draws on a combination of self-written items and items from the ETS Kit of Factor-Referenced
 #' Cognitive Tests.
-#' This test has 12 items: seven items target general mathematics aptitude,
-#' and five items focus on simplifying algebraic expres- sions involving exponents.
+#' It consists of 12 items: seven assessing general mathematics aptitude,
+#' and five focusing on simplifying algebraic expressions involving exponents.
 #'
 #'
 #' @name Math_Pre_WSC
@@ -15,14 +15,12 @@
 #'
 #' @usage data(Math_Pre_WSC)
 #'
-#' @source Keller et al., ....
-#'
 #' @references R. B. Ekstrom, J. W. French, H. H. Harman, and D. Dermen. Manual for Kit of
 #' Factor- Referenced Cognitive Tests. Educational Testing Service, 1976.
 #'
 #' @keywords datasets
 #'
 #' @examples
-#' summary(Math_Pre_WSC)
+#' Math_Pre_WSC
 
 NULL
