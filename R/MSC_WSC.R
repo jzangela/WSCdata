@@ -11,14 +11,15 @@
 #' @name MSC_WSC
 #' @docType data
 #' @format MSC_WSC is a data frame with 2200 cases (rows) and 7 variables (columns).
-#' The variables are named item1, item2 ...., iteme6, and type.
-#'\itemize{
-#' \item I understand the meaning of a factor in an algebraic expression.
-#' \item I understand the difference between a base and an expression in an algebraic expression.
-#' \item I can simplify algebraic expressions that involve multiplying exponential expressions with the same base.
-#' \item I can simplify algebraic expressions that involve dividing exponential expressions with the same base.
-#' \item I can simplify algebraic expressions that involve raising an expression to a power.
-#' \item I can simplify algebraic expressions that involve negative exponents.
+#' The variables are named item_1, item_2 ...., item_6, and type ("pre" or "post").
+#' \describe{
+#'   \item{item_1}{I understand the meaning of a factor in an algebraic expression.}
+#'   \item{item_2}{I understand the difference between a base and an expression in an algebraic expression.}
+#'   \item{item_3}{I can simplify algebraic expressions that involve multiplying exponential expressions with the same base.}
+#'   \item{item_4}{I can simplify algebraic expressions that involve dividing exponential expressions with the same base.}
+#'   \item{item_5}{I can simplify algebraic expressions that involve raising an expression to a power.}
+#'   \item{item_6}{I can simplify algebraic expressions that involve negative exponents.}
+#'   \item{type}{Either "pre" or "post", indicating assessment timing.}
 #' }
 #'
 #' @usage data(MSC_WSC)
@@ -30,6 +31,7 @@
 #' @keywords datasets
 #'
 #' @examples
+#' data(MSC_WSC)
 #' summary(MSC_WSC)
 
 NULL

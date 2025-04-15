@@ -6,7 +6,7 @@
 \title{AMAS Dataset}
 \format{
 AMAS_WSC is a data frame with 2200 cases (rows) and 9 variables (columns).
-The variables are named item1, item2, ... , item9.
+The variables are named item_1, item_2, ... , item_9.
 }
 \source{
 Keller et al., ....
