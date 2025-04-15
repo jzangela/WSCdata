@@ -21,7 +21,7 @@ Amazon Mechanical Turk workers (Keller et al., 2022).
 GSES_WSC
 }
 \references{
-Schwarzer, R., & Jerusalem, M. (1995). General Self-Efficacy Scale (GSE) \link{Database record}. APA PsycTests.
+Schwarzer, R., & Jerusalem, M. (1995). General Self-Efficacy Scale (GSE) Database record. APA PsycTests.
 https://doi.org/10.1037/t00393-000
 }
 \keyword{datasets}

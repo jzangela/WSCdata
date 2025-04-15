@@ -13,7 +13,7 @@
 #'
 #' @usage data(GSES_WSC)
 #'
-#' @references Schwarzer, R., & Jerusalem, M. (1995). General Self-Efficacy Scale (GSE) [Database record]. APA PsycTests.
+#' @references Schwarzer, R., & Jerusalem, M. (1995). General Self-Efficacy Scale (GSE) Database record. APA PsycTests.
 #' https://doi.org/10.1037/t00393-000
 #'
 #' @keywords datasets

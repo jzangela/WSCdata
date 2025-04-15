@@ -49,12 +49,13 @@ Below is an example of analysis based on `WSCdata` for estimating
 intervention effect.
 
 ``` r
-# Load packages
-library(WSCdata)
-library(tidyverse)
+if (requireNamespace("tidyverse", quietly = TRUE)) {
+  library(WSCdata)
+  library(tidyverse)
 
-# Load WSCdata
-data("WSCdata", package = "WSCdata")
+  # Load WSCdata
+  data("WSCdata", package = "WSCdata")
+}
 ```
 
 We first specified a list of baseline covariates in `cov_nms` for future

@@ -26,7 +26,7 @@
 #' \item "collegeM" is the indicator variable for college education for mother (0 = No, 1 = Yes).
 #' \item "collegeD" is the indicator variable for college education for father (0 = No, 1 = Yes).
 #' \item "calc" is the indicator variable for having taken a calculus course (0 = No, 1 = Yes).
-#' \item "books" is the number of books read in past year [0, 60].
+#' \item "books" is the number of books read in past year (ranging from 0 to 60).
 #' \item "mathLike" is the indicator variable for  (0 = No, 1 = Yes).
 #' \item "Big5O" is Big Five Personality Inventory Openness Subscale score.
 #' \item "Big5C" is Big Five Personality Inventory Conscientiousness Subscale score.
@@ -64,6 +64,7 @@
 #' @keywords datasets
 #'
 #' @examples
+#' if (requireNamespace("tidyverse", quietly = TRUE)) {
 #' # Load functions ----------------------------------------------------------
 #' library(tidyverse)
 #'
@@ -225,7 +226,8 @@
 #' ## Merge propensity scores to the original dataset
 #' lps_rct_math <- data.frame(cbind(lps = log(ps_rct_math), ind_rct_math = WSCdata$ind_rct_math))
 #'
-#' ## Create an overlap density plot based on log transformed propensity scores for treatment and control group
+#' ## Create an overlap density plot based on log transformed propensity scores for
+#' ## treatment and control group
 #' lps_rct_math |>
 #'   mutate(ind_rct_math_fct = case_when(ind_rct_math == 1 ~ "treatment",
 #'                                  ind_rct_math == 0 ~ "control")) |>
@@ -236,7 +238,8 @@
 #'   guides(fill=guide_legend(title="RCT group"))
 #'
 #' # Propensity Score overlap plot for math training propensity among the treated group
-#' ## Define the formula for the propensity score model for math training propensity among the treated group
+#' ## Define the formula for the propensity score model for math training propensity
+#' ## among the treated group
 #' fmla_ps_att_math <-
 #'   as.formula(paste("ind_att_math ~ ", paste(cov_nms, collapse = " + ")))
 #'
@@ -250,7 +253,8 @@
 #' ## Merge propensity scores to the original dataset
 #' lps_att_math <- data.frame(cbind(lps = log(ps_att_math), ind_att_math = WSCdata$ind_att_math))
 #'
-#' ## Create an overlap density plot based on log transformed propensity scores for treatment and control group
+#' ## Create an overlap density plot based on log transformed propensity scores for
+#' ## treatment and control group
 #' lps_att_math |>
 #'   filter(!is.na(ind_att_math)) |>
 #'   mutate(ind_att_math_fct = case_when(ind_att_math == 1 ~ "treatment",
@@ -262,7 +266,8 @@
 #'   guides(fill=guide_legend(title="Att group"))
 #'
 #' # Propensity Score overlap plot for math training propensity among the control group
-#' ## Define the formula for the propensity score model for math training propensity among the control group
+#' ## Define the formula for the propensity score model for math training
+#' ## propensity among the control group
 #' fmla_ps_atu_math <-
 #'   as.formula(paste("ind_atu_math ~ ", paste(cov_nms, collapse = " + ")))
 #'
@@ -276,7 +281,8 @@
 #' ## Merge propensity scores to the original dataset
 #' lps_atu_math <- data.frame(cbind(lps = log(ps_atu_math), ind_atu_math = WSCdata$ind_atu_math))
 #'
-#' ## Create an overlap density plot based on log transformed propensity scores for treatment and control group
+#' ## Create an overlap density plot based on log transformed propensity scores for
+#' ## treatment and control group
 #' lps_atu_math |>
 #'   filter(!is.na(ind_atu_math)) |>
 #'   mutate(ind_atu_math_fct = case_when(ind_atu_math == 1 ~ "treatment",
@@ -300,9 +306,11 @@
 #' ), type = "response")
 #'
 #' ## Merge propensity scores to the original dataset
-#' lps_rct_vocab <- data.frame(cbind(lps = log(ps_rct_vocab), ind_rct_vocab = WSCdata$ind_rct_vocab))
+#' lps_rct_vocab <- data.frame(cbind(lps = log(ps_rct_vocab),
+#' ind_rct_vocab = WSCdata$ind_rct_vocab))
 #'
-#' ## Create an overlap density plot based on log transformed propensity scores for treatment and control group
+#' ## Create an overlap density plot based on log transformed propensity scores for
+#' ## treatment and control group
 #' lps_rct_vocab |>
 #'   mutate(ind_rct_vocab_fct = case_when(ind_rct_vocab == 1 ~ "treatment",
 #'                                   ind_rct_vocab == 0 ~ "control")) |>
@@ -313,7 +321,8 @@
 #'   guides(fill=guide_legend(title="RCT group"))
 #'
 #' # Propensity Score overlap plot for vocabulary training propensity among the treated group
-#' ## Define the formula for the propensity score model for vocabulary training propensity among the treated group
+#' ## Define the formula for the propensity score model for vocabulary training
+#' ## propensity among the treated group
 #' fmla_ps_att_vocab <-
 #'   as.formula(paste("ind_att_vocab ~ ", paste(cov_nms, collapse = " + ")))
 #'
@@ -325,9 +334,11 @@
 #' ), type = "response")
 #'
 #' ## Merge propensity scores to the original dataset
-#' lps_att_vocab <- data.frame(cbind(lps = log(ps_att_vocab), ind_att_vocab = WSCdata$ind_att_vocab))
+#' lps_att_vocab <- data.frame(cbind(lps = log(ps_att_vocab),
+#' ind_att_vocab = WSCdata$ind_att_vocab))
 #'
-#' ## Create an overlap density plot based on log transformed propensity scores for treatment and control group
+#' ## Create an overlap density plot based on log transformed propensity scores for
+#' ## treatment and control group
 #' lps_att_vocab |>
 #'   filter(!is.na(ind_att_vocab)) |>
 #'   mutate(ind_att_vocab_fct = case_when(ind_att_vocab == 1 ~ "treatment",
@@ -335,11 +346,13 @@
 #'   ggplot(aes(x = lps, fill = ind_att_vocab_fct)) + geom_density(alpha = 0.25) +
 #'   xlab("Log Propensity Score") +
 #'   ylab("Density") +
-#'   ggtitle("Propensity score overlap for vocabulary training in treatment groups among the treated") +
+#'   ggtitle("Propensity score overlap for vocabulary training in
+#'   treatment groups among the treated") +
 #'   guides(fill=guide_legend(title="ATT group"))
 #'
 #' # Propensity Score overlap plot for vocabulary training propensity among the control group
-#' ## Define the formula for the propensity score model for vocabulary training propensity among the control group
+#' ## Define the formula for the propensity score model for vocabulary training
+#' ## propensity among the control group
 #' fmla_ps_atu_vocab <-
 #'   as.formula(paste("ind_atu_vocab ~ ", paste(cov_nms, collapse = " + ")))
 #'
@@ -353,7 +366,8 @@
 #' ## Merge propensity scores to the original dataset
 #' lps_atu_vocab <- data.frame(cbind(lps = log(ps_atu_vocab), ind_atu_vocab = WSCdata$ind_atu_vocab))
 #'
-#' ## Create an overlap density plot based on log transformed propensity scores for treatment and control group
+#' ## Create an overlap density plot based on log transformed propensity scores
+#' ## for treatment and control group
 #' lps_atu_vocab |>
 #'   filter(!is.na(ind_atu_vocab)) |>
 #'   mutate(ind_atu_vocab_fct = case_when(ind_atu_vocab == 1 ~ "treatment",
@@ -363,5 +377,6 @@
 #'   ylab("Density") +
 #'   ggtitle("Propensity score overlap for vocabulary training in treatment groups among the contol") +
 #'   guides(fill=guide_legend(title="ATU group"))
+#' }
 
 NULL

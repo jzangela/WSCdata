@@ -8,9 +8,9 @@
 #' the data were collected prior to or following the intervention.
 #'
 #'
-#' @name MSC_WSC
+#' @name MCS_WSC
 #' @docType data
-#' @format MSC_WSC is a data frame with 2200 cases (rows) and 7 variables (columns).
+#' @format MCS_WSC is a data frame with 2200 cases (rows) and 7 variables (columns).
 #' The variables are named item_1, item_2 ...., item_6, and type ("pre" or "post").
 #' \describe{
 #'   \item{item_1}{I understand the meaning of a factor in an algebraic expression.}
@@ -22,11 +22,11 @@
 #'   \item{type}{Either "pre" or "post", indicating assessment timing.}
 #' }
 #'
-#' @usage data(MSC_WSC)
+#' @usage data(MCS_WSC)
 #'
 #' @keywords datasets
 #'
 #' @examples
-#' MSC_WSC
+#' MCS_WSC
 
 NULL
