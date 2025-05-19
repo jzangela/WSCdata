@@ -26,8 +26,8 @@ with 9 items, and Neuroticism (N) with 8 items.
 Big5_WSC
 }
 \references{
-John, O. P., & Srivastava, S. (1999). The big ﬁve trait taxonomy: History, measurement,
+John, O. P., & Srivastava, S. (1999). The big five trait taxonomy: History, measurement,
 and theoretical perspectives. In L. A. Pervin & O. P. John (Eds.), Handbook of
-personality: Theory and research (pp. 102–138). New York, NY: Guilford Press.
+personality: Theory and research (pp. 102-138). New York, NY: Guilford Press.
 }
 \keyword{datasets}

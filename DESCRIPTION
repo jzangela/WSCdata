@@ -1,5 +1,5 @@
 Package: WSCdata
-Title: A New Four-arm Within-study Comparison Data on Math and Vocabulary Training
+Title: A New Four-Arm Within-Study Comparison Data on Math and Vocabulary Training
 Version: 0.0.0.9000
 Authors@R: c(person("Bryan","Keller", ,"keller4@tc.columbia.edu", role=c("aut", "cph")), person("Sangbaek","Park", , "qkr800507@gmail.com", role="ctb"), person("Jingru","Zhang", , "jzhang2637@wisc.edu", role="cre"))
 Description: This dataset was collected using a new four-arm within-study comparison design. The study aimed to examine the impact of a mathematics training intervention and a vocabulary study session on posttest scores in mathematics and vocabulary, respectively. The innovative four-arm within-study comparison design facilitates both experimental and quasi-experimental identification of average causal effects.

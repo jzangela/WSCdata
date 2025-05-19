@@ -14,7 +14,7 @@
 #' @usage data(AMAS_WSC)
 #'
 #' @references Hopko, D., Mahadevan, R., Bare, R. L., & Hunt, M. K. (2003). The abbreviated math
-#' anxiety scale (AMAS): Construction, validity, and reliability. Assessment, 10 , 78–182.
+#' anxiety scale (AMAS): Construction, validity, and reliability. Assessment, 10, 78-182.
 #'
 #' @keywords datasets
 #'

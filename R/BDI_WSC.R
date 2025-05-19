@@ -13,7 +13,7 @@
 #' @usage data(BDI_WSC)
 #'
 #' @references Beck, A. T., & Beck, R. W. (1972). Screening Depressed Patients in Family
-#' Practice: A Rapid Technic. Postgraduate Medicine, 52(6), 81–85.
+#' Practice: A Rapid Technic. Postgraduate Medicine, 52(6), 81-85.
 #' https://doi.org/10.1080/00325481.1972.11713319
 #'
 #' @keywords datasets

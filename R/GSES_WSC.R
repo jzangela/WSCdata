@@ -2,7 +2,7 @@
 #'
 #' The dataset contains measurements of perceived self-efficacy related to coping and
 #' adaptation abilities, using six out of the ten items from the General Self-Efficacy Scale
-#' (GSES)—specifically item 2, 3, 6, 5, 7, and 10. The data were collected from 2,200
+#' (GSES)-specifically item 2, 3, 6, 5, 7, and 10. The data were collected from 2,200
 #' Amazon Mechanical Turk workers (Keller et al., 2022).
 #'
 #'
