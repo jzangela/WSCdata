@@ -25,7 +25,13 @@ The goal of WSCdata is to make a within-study comparison design data for evaluat
 
 ## Installation
 
-You can install the development version of WSCdata from [GitHub](https://github.com/) with:
+To install the latest version of WSCdata from CRAN with:
+      
+``` r
+install.packages("WSCdata")
+```
+
+To install the development version of WSCdata from [GitHub](https://github.com/) with:
       
 ``` r
 # install.packages("devtools")
@@ -34,7 +40,7 @@ devtools::install_github("jzangela/WSCdata")
 
 ## Usage
 
-The study aimed to examine the impact of a mathematics training intervention and a vocabulary study session on posttest scores in mathematics and vocabulary, respectively. The dataset `WSCdata` provides baseline measures on general self-efficacy, mathematics confidence, demographic questions, pretest measures, selection, random assignment, and posttest measures. `AMAS_WSC` contains item-wise measurement data from a nine-item Abbreviated Mathematics Anxiety Scale (Hopko et al., 2003) that assesses mathematics anxiety. `BDI_WSC` includes item-wise measurement data from a thirteen-item Beck Depression Inventory (Beck et al., 1996) that measures symptoms of depression. `Big5_WSC` offers item-wise measurement data from the Big Five Personality Inventory (John & Srivastava, 1999) that assesses personality on five dimensions: openness to experience, conscientiousness, extraversion, agreeableness, and neuroticism. `GSES_WSC` provides item-wise measurement data from the General Self-Efficacy Scale (Schwarzer & Jerusalem, 1995) that measures the degree to which participants believe in their ability to cope with unexpected or difficult situations. `MSC_WSC` contains researcher-created measures on confidence in understanding of, and ability to simplify, algebraic expressions involving exponents.
+The study aimed to examine the impact of a mathematics training intervention and a vocabulary study session on posttest scores in mathematics and vocabulary, respectively. The dataset `WSCdata` provides baseline measures on general self-efficacy, mathematics confidence, demographic questions, pretest measures, selection, random assignment, and posttest measures. We provide item-level data for the pre- and post-tests of the mathematics and vocabulary interventions in the datasets `Math_Pre_WSC`, `Math_Post_WSC`, `Vocab_Pre_WSC`, and `Vocab_Post_WSC`. Additionally, item responses recorded during mathematics training sessions are available for participants who received the mathematics intervention in the dataset `Math_Train_WSC`. Responses to non-cognitive items were also available in their own dataset. `AMAS_WSC` contains item-wise measurement data from a nine-item Abbreviated Mathematics Anxiety Scale (Hopko et al., 2003) that assesses mathematics anxiety. `BDI_WSC` includes item-wise measurement data from a thirteen-item Beck Depression Inventory (Beck et al., 1996) that measures symptoms of depression. `Big5_WSC` offers item-wise measurement data from the Big Five Personality Inventory (John & Srivastava, 1999) that assesses personality on five dimensions: openness to experience, conscientiousness, extraversion, agreeableness, and neuroticism. `GSES_WSC` provides item-wise measurement data from the General Self-Efficacy Scale (Schwarzer & Jerusalem, 1995) that measures the degree to which participants believe in their ability to cope with unexpected or difficult situations. `MSC_WSC` contains researcher-created measures on confidence in understanding of, and ability to simplify, algebraic expressions involving exponents.
 
 Below is an example of analysis based on `WSCdata` for estimating intervention effect.
 
