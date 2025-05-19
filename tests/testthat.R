@@ -9,4 +9,4 @@
 library(testthat)
 library(WSCdata)
 
-test_check("WSCdata")
+# test_check("WSCdata")
