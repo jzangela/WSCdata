@@ -1,0 +1,23 @@
+citHeader("To cite WSCdata, please use:")
+
+bibentry(
+   bibtype = "Article",
+   title   = "A new four-arm within-study comparison:
+ Design, implementation, and data",
+   author  = c(
+  person("Bryan", "Keller"),
+  person("Vivian C.", "Wong"),
+  person("Sangbaek", "Park"),
+  person("Jingru", "Zhang"),
+  person("Patrick", "Sheehan"),
+  person("Peter M.", "Steiner")
+),
+   journal = "Obervational Studies",
+   year    = "2025",
+   volume  = "11",
+   number  = "2",
+   pages   = "153--188",
+   doi     = "10.1353/obs.2025.a963647",
+   textVersion = "Keller, B., Wong, V. C., Park, S., Zhang, J., Sheehan, P., & Steiner, P. M. (2025). A new four-arm within-study comparison: Design, implementation, and data. Observational Studies, 11(2), 153–188. https://doi.org/10.1353/obs.2025.a963647"
+ )
+
