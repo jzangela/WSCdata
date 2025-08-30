@@ -6,6 +6,7 @@
 # WSCdata
 
 <!-- badges: start -->
+
 <!-- badges: end -->
 
 The goal of WSCdata is to make a within-study comparison design data for
@@ -218,20 +219,19 @@ indicators generated from the combination of randomization and
 self-selection indicator.
 
 For more information about the four-arm WSC design and analysis, please
-check out Keller et al. (2022).
+check out Keller et al. (2025).
 
 # References
 
 <div id="refs" class="references csl-bib-body hanging-indent"
 entry-spacing="0">
 
-<div id="ref-keller_2022_" class="csl-entry">
+<div id="ref-keller_new_2025" class="csl-entry">
 
-Keller, Bryan, Vivian Wong, Sangbaek Park, Jingru Zhang, Sheehan
-Patrick, and Steiner Peter. 2022. “Experimental and Quasi-Experimental
-Identification of Conditional Average Treatment Effects: A Four-Arm
-Within-Study Comparison.” Open Science Foundation.
-[osf.io/e3mpf](https://osf.io/e3mpf).
+Keller, Bryan, Vivian C. Wong, Sangbaek Park, Jingru Zhang, Patrick
+Sheehan, and Peter M. Steiner. 2025. “A New Four-Arm Within-Study
+Comparison: Design, Implementation, and Data.” *Observational Studies*
+11 (2): 153–88. <https://muse.jhu.edu/pub/56/article/963647>.
 
 </div>
 

@@ -116,7 +116,7 @@ ATE estimates for the vocabulary training can be studied in the same fashion, wi
 
 Other estimators such as ATT and ATU can be studied with group indicators generated from the combination of randomization and self-selection indicator.
 
-For more information about the four-arm WSC design and analysis, please check out @keller_2022_.
+For more information about the four-arm WSC design and analysis, please check out @keller_new_2025.
 
 # References
 

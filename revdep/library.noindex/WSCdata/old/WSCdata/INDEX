@@ -1,0 +1,12 @@
+AMAS_WSC                AMAS Dataset
+BDI_WSC                 BDI Dataset
+Big5_WSC                Big 5 Dataset
+GSES_WSC                GSES Dataset
+MCS_WSC                 MSC Dataset
+Math_Post_WSC           Math Post-test Dataset
+Math_Pre_WSC            Math Pre-test Dataset
+Math_Train_WSC          Math Training Dataset
+Vocab_Post_WSC          Vocabulary Post-test Dataset
+Vocab_Pre_WSC           Vocabulary Pre-test Dataset
+WSCdata                 A new four-arm within-study comparison data on
+                        math and vocabulary training
