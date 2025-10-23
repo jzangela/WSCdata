@@ -17,9 +17,9 @@ BugReports: https://github.com/jzangela/WSCdata/issues
 RemoteType: local
 RemoteUrl: /Users/Rpkg/WSCdata
 NeedsCompilation: no
-Packaged: 2025-10-23 20:52:43 UTC; Sunshine
+Packaged: 2025-10-23 21:10:29 UTC; Sunshine
 Author: Bryan Keller [aut, cph],
   Sangbaek Park [aut, ctb],
   Jingru Zhang [aut, cre]
 Maintainer: Jingru Zhang <jzhang2637@wisc.edu>
-Built: R 4.5.1; ; 2025-10-23 20:52:43 UTC; unix
+Built: R 4.5.1; ; 2025-10-23 21:10:30 UTC; unix
