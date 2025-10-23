@@ -7,7 +7,7 @@ Description: This dataset was collected using a new four-arm within-study compar
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Depends: R (>= 4.1.0)
 LazyData: true
 Suggests: testthat (>= 3.0.0), tidyverse
@@ -17,9 +17,9 @@ BugReports: https://github.com/jzangela/WSCdata/issues
 RemoteType: local
 RemoteUrl: /Users/Rpkg/WSCdata
 NeedsCompilation: no
-Packaged: 2025-08-30 20:37:32 UTC; Sunshine
+Packaged: 2025-10-23 20:52:43 UTC; Sunshine
 Author: Bryan Keller [aut, cph],
   Sangbaek Park [aut, ctb],
   Jingru Zhang [aut, cre]
 Maintainer: Jingru Zhang <jzhang2637@wisc.edu>
-Built: R 4.4.1; ; 2025-08-30 20:37:32 UTC; unix
+Built: R 4.5.1; ; 2025-10-23 20:52:43 UTC; unix
