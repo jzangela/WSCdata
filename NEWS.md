@@ -1,4 +1,4 @@
-# WSCdata (development version)
+# WSCdata 0.1.3
 
 # WSCdata 0.1.0
 
