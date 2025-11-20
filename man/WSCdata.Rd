@@ -51,7 +51,10 @@ math training or vocabulary training. The four arms in the new WSC design can be
 by these two variables. See paper for more details.
 }
 \source{
-Keller et al., ....
+Keller, Bryan, Vivian C. Wong, Sangbaek Park, Jingru Zhang, Patrick
+Sheehan, and Peter M. Steiner. 2025. “A New Four-Arm Within-Study
+Comparison: Design, Implementation, and Data.” \emph{Observational Studies}
+11 (2): 153–88. \url{https://muse.jhu.edu/pub/56/article/963647}.
 }
 \usage{
 data(WSCdata)
@@ -380,6 +383,9 @@ lps_atu_vocab |>
 }
 }
 \references{
-Keller et al., ....
+Keller, Bryan, Vivian C. Wong, Sangbaek Park, Jingru Zhang, Patrick
+Sheehan, and Peter M. Steiner. 2025. “A New Four-Arm Within-Study
+Comparison: Design, Implementation, and Data.” \emph{Observational Studies}
+11 (2): 153–88. \url{https://muse.jhu.edu/pub/56/article/963647}.
 }
 \keyword{datasets}
