@@ -57,15 +57,19 @@
 #'
 #' @usage data(WSCdata)
 #'
-#' @source Keller, Bryan, Vivian C. Wong, Sangbaek Park, Jingru Zhang, Patrick
-#' Sheehan, and Peter M. Steiner. 2025. “A New Four-Arm Within-Study
-#' Comparison: Design, Implementation, and Data.” *Observational Studies*
-#' 11 (2): 153–88. <https://muse.jhu.edu/pub/56/article/963647>.
+#' @source
+#' Keller, Bryan, Vivian C. Wong, Sangbaek Park, Jingru Zhang,
+#' Patrick Sheehan, and Peter M. Steiner. (2025).
+#' "A New Four-Arm Within-Study Comparison: Design, Implementation, and Data."
+#' *Observational Studies*, 11(2), 153–188.
+#' <https://muse.jhu.edu/pub/56/article/963647>.
 #'
-#' @references Keller, Bryan, Vivian C. Wong, Sangbaek Park, Jingru Zhang, Patrick
-#' Sheehan, and Peter M. Steiner. 2025. “A New Four-Arm Within-Study
-#' Comparison: Design, Implementation, and Data.” *Observational Studies*
-#' 11 (2): 153–88. <https://muse.jhu.edu/pub/56/article/963647>.
+#' @references
+#' Keller, Bryan, Vivian C. Wong, Sangbaek Park, Jingru Zhang,
+#' Patrick Sheehan, and Peter M. Steiner. (2025).
+#' "A New Four-Arm Within-Study Comparison: Design, Implementation, and Data."
+#' *Observational Studies*, 11(2), 153–188.
+#' <https://muse.jhu.edu/pub/56/article/963647>.
 #'
 #' @keywords datasets
 #'
